@@ -34,3 +34,25 @@ let c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
 
 // Imprimir el resultado 
 console.log('La hipotenusa según los valores dados es :', c);
+
+console.log("-----------------------------")
+
+//OPERADORES DE ASIGNACIÓN
+
+let a2= 20;
+let b2= 15;
+let c2= 40;
+
+//Suma b en a
+a2 +=b2;
+
+//Dividir a con c
+a2 /=c2;
+
+//Reemplazar el valor de c con el módulo de c y b;
+c2= c2%b2;
+
+//Imprimir los resultados en la consola
+console.log("El resultado de la suma a y b es:", a2);
+console.log("El resultado de la división de a con c es:", a2);
+console.log("El resultado del módulo de c y b es:", c2);
